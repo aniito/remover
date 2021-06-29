@@ -86,7 +86,7 @@ def prout():
     print("pour arrêter faites CTRL + C ")
     attention = input("\n\nvoulez vous vraiment continuer ? : ")
     try:   
-            print("je vais essayer avec le fichier que tu m'a envoyé sinon je fais avec remv.txt !")
+            print("je vais essayer avec le fichier que tu m'as envoyé sinon je fais avec remv.txt !")
             with open(fid, "r") as f:
                 for line in f.readlines():
                         ski = line.strip()
