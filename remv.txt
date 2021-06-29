@@ -1,1 +1,1 @@
-exemple : /home/toi/lol/lol1.png (attention à bien retirer cette ligne !)
+exemple : /home/toi/lol/lol1.png ou des dossiers (attention à bien retirer cette ligne !)
