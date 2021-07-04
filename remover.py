@@ -9,7 +9,7 @@ if os.getuid() != 0:
 	print ("""
     Attention Le script est à faire tourner en Super Utilisateur (Root)
            \\
-            \\______ Si vous voulez supprimer des fichiers avec des permissions root -- faites un sudo su avant de lancer le script                                         
+            \\______ Si vous voulez supprimer des fichiers avec des permissions root -- faites un sudo su ou sudo remover.py avant de lancer le script                                    
     """)
 	sys.exit()
     
