@@ -4,7 +4,16 @@ import asyncio
 # import script_kiddage
 # from skid_universal import 2qi
 
-
+# force sudo
+if os.getuid() != 0:
+	print ("""
+    Attention Le script est à faire tourner en Super Utilisateur (Root)
+           \\
+            \\______ Si vous voulez supprimer des fichiers avec des permissions root -- faites un sudo su avant de lancer le script                                         
+    """)
+	sys.exit()
+    
+    
 async def main():
     print(""" 
              :     :
@@ -76,11 +85,7 @@ def prout():
                               \_(____)
                                  !  !
                                  !  !
-                                 \__/   
-                                                                                                                                                                                                                                                                                               
-           Attention Le script est à faire tourner en Super Utilisateur (Root)
-           \\
-            \\______ Si vous voulez supprimer des fichiers avec des permissions root -- faites un sudo su avant de lancer le script                                         
+                                 \__/                                      
 
     """)
     print("pour arrêter faites CTRL + C ")
