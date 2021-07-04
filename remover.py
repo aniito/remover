@@ -85,11 +85,7 @@ def prout():
                               \_(____)
                                  !  !
                                  !  !
-                                 \__/   
-                                                                                                                                                                                                                                                                                               
-           Attention Le script est à faire tourner en Super Utilisateur (Root)
-           \\
-            \\______ Si vous voulez supprimer des fichiers avec des permissions root -- faites un sudo su avant de lancer le script                                         
+                                 \__/                                      
 
     """)
     print("pour arrêter faites CTRL + C ")
